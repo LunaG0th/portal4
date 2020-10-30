@@ -1,5 +1,9 @@
-data = '[{"nama" : "Kemangi 41"}, {"alamat" : "Jl. Tanah Merah IV Gang Kemangi No. 41"}, {"phone" : "0822"}, {"keterangan" : "Voucher Kemangi 41 bisa di beli di gang Kemangi No.41 atau gang Kluweh No.19 (Rosi)"}, {"copyright" : "2018 by Laksamadi Guko"}, {"masaaktif" : ""}, {"trial" : "Coba Gratis"}, {"notifikasi" : "Internet dalam perbaikan."}]';
 
-datatitle = '[{"title1" : "Paket Wifi"}, {"title2" : "Voucher"},{"title3" : "Alamat"}, {"title4" : "Kontak"}, {"title5" : "Peringatan"}, {"title6" : "Expired"}]';
 
-dataerr = '[{"expired" : "Kode Voucher atau User yang Anda masukkan sudah expired. Silahkan gunakan Kode Voucher atau User yang masih berlaku."}, {"invaliduser" : "Kode Voucher atau User yang Anda masukkan tidak sesuai. Silahkan masukkan kembali dengan benar."}, {"sudahlogin" : "User yang Anda masukkan sudah login, Anda tidak dapat login untuk yang kedua kalinya. Silahkan tunggu 2 menit Kode Voucher atau User Anda akan logout secara otomatis. Jika tidak, maka kemungkinan besar Kode Voucher atau User Anda digunakan oleh orang lain. Jagalah kerahasiaan Kode Voucher atau User Anda!"}, {"ilegal" : "Anda tidak bisa login menggunakan device ini. Silahkan gunakan device yang terdaftar."}, {"radius" : "RADIUS server tidak merespon."}]';
+
+
+data = '[{"name" : "Kemangi 41"}, {"address" : "Voucher can purchase at KatePisoNet (2440 Oro-B)"}, {"phone" : "0822"}, {"information" : "Open your Wifi choose the wifi name kateHotSpot you will be redirect to login page. Tap Voucher button and enter your code tap login"}, {"copyright" : "2018 by Laksamadi Guko"}, {"Active time" : ""}, {"trial" : "Try for Free"}, {"notification" : "Internet under repair."}]';
+
+datatitle = '[{"title1" : "Internet Wifi Package"}, {"title2" : "How to Login"},{"title3" : "Where to Buy"}, {"title4" : "Contact"}, {"title5" : "Peringatan"}, {"title6" : "Expired"}]';
+
+dataerr = '[{"expired" : "The voucher or user code that you entered has expired. Please use a valid Voucher or User Code."}, {"invaliduser" : "The voucher or user code that you entered does not match. Please re-enter it correctly."}, {"sudahlogin" : "The user you entered is already logged in, you cannot log in for the second time. Please wait 2 minutes. Your Voucher Code or User will be logged out automatically. If not, then it is likely that your Voucher or User Code was used by someone else. Maintain the confidentiality of your Voucher or User Code!"}, {"ilegal" : "You cannot login using this device. Please use the registered device."}, {"radius" : "The RADIUS server is not responding."}]';

@@ -16,7 +16,7 @@
 
 <div class="container">
 
-  <div class="notif" id="notifikasi">
+  <div class="notif" id="notification">
 
   </div> <!-- .notif-->
 
@@ -49,7 +49,9 @@
         $(endif)
         <div>
           <center>
-          <div style="padding-top:10px;padding-bottom:10px;">$(if trial == 'yes')<a id="trial1" class="a" href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)"></a>$(endif)</div>
+          <!-- disable trial text -->
+          <!-- <div style="padding-top:10px;padding-bottom:10px;">$(if trial == 'yes')<a id="trial1" class="a" href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)"></a>$(endif)</div> -->
+          <div style="padding-top:10px;padding-bottom:10px;"><p>Enter your Voucher Code Them Tap Login</p></div>
           <form autocomplete="off" name="loginkv" action="$(link-login-only)" method="post"
           $(if chap-id) onSubmit="return doLoginkv()" $(endif)>
             <input type="hidden" name="dst" value="$(link-orig)" />
@@ -157,17 +159,17 @@ document.getElementById("kodevoucher").click();
                         .text(function(d) { return d; });
             });
       </script>
-		</div> <!-- .middle -->
-
-		<div class="right">
+      <p style="text-align: center;"> Voucher can purchase at KatePisoNet <br> (2440 Oro-B)</p>
+    </div> <!-- .middle -->
+    <!-- buttom -->
+		<!-- <div class="right">
 		  <h3 id="title2"></h3>
-		  <p id="keterangan"></p>
+		  <p id="information"></p>
 		  <h3 id="title3"></h3>
-		  <p id="alamat"></p>
+		  <p id="address"></p>
 		  <h3 id="title4"></h3>
 		  <p id="phone"></p>
-		  
-		</div>
+		</div> -->
 
 	<div class="footer">
 	  <i>Copyright &copy; <i id="copyright"></i></i><br>
@@ -232,17 +234,17 @@ document.getElementById("kodevoucher").click();
         document.getElementById('title1').innerHTML = mydatat[0].title1 ;
         document.getElementById('title2').innerHTML = mydatat[1].title2 ;
         document.getElementById('title3').innerHTML = mydatat[2].title3 ;
-        document.getElementById('title4').innerHTML = mydatat[3].title4 ;
+        // document.getElementById('title4').innerHTML = mydatat[3].title4 ;
         
               
-        document.getElementById('title').innerHTML = mydata[0].nama ;
-        document.getElementById('alamat').innerHTML = mydata[1].alamat ;
-        document.getElementById('phone').innerHTML = mydata[2].phone ;
-        document.getElementById('keterangan').innerHTML = mydata[3].keterangan ;
+        document.getElementById('title').innerHTML = mydata[0].name ;
+        document.getElementById('address').innerHTML = mydata[1].address ;
+        // document.getElementById('phone').innerHTML = mydata[2].phone ;
+        document.getElementById('information').innerHTML = mydata[3].information ;
         document.getElementById('copyright').innerHTML = mydata[4].copyright ;
         document.getElementById('trial1').innerHTML = mydata[6].trial ;
         document.getElementById('trial2').innerHTML = mydata[6].trial ;
-        document.getElementById('notifikasi').innerHTML = mydata[7].notifikasi ;
+        document.getElementById('notification').innerHTML = mydata[7].notification ;
         
         
       </script>

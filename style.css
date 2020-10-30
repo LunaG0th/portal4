@@ -1,9 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+</style>
 html, body{
   min-height: 100%;
 }
 body {
-  font-family: 'Helvetica', arial, sans-serif;
+  font-family: 'Work Sans', sans-serif;
   background-color: #3D4241;
 	font-size: 15px;
   }
@@ -17,18 +19,21 @@ body {
 }
 
 p{
+  color: #f1f1f1;
 	margin-bottom: 5px;
 	line-height: 1.5em;
 }
 
 h3{
+  text-align: center;
+  color: #f1f1f1;
   margin-top:5px;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #aaa;
 }
 
 .a {
-  color:#008CCA;
+  color:#d9534f;
   text-decoration: none;
   font-weight:bold;
 }
@@ -51,11 +56,11 @@ h3{
 }
 
 .header{
-	border: 1px solid #008CCA;
+	border: 1px solid #d9534f;
 	padding: 10px;
 	margin: 5px;
 	background: url('img/textures.png');
-	background-color:#008CCA;
+	background-color:#d9534f;
 }
 
 .notif{
@@ -71,7 +76,7 @@ h3{
 .left{
   width: 250px;
   height: 300px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(139, 139, 139, 0.671);
   border: none;
   border-radius:5px;
   padding: 10px;
@@ -83,7 +88,7 @@ h3{
 .middle{
   width: 250px;
   height: 300px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(139, 139, 139, 0.671);
   border: none;
   border-radius:5px;
   padding: 10px;
@@ -95,7 +100,7 @@ h3{
 .right{
   width: 250px;
   height: 300px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(139, 139, 139, 0.671);
   border: none;
   border-radius:5px;
   padding: 10px;
@@ -105,17 +110,19 @@ h3{
 }
 
 .footer{
+  font-size: 8px;
 	clear: both;
 	padding: 10px;
 	margin: 5px;
 	text-align: center;
 }
 .footer i {
-  color:#ffffff;
+  color:#000000;
   text-shadow: 2px 2px 6px #424242;
 }
 .footer a {
-  color:#ffffff;
+  text-decoration: none;
+  color:#000000;
   text-shadow: 2px 2px 6px #424242;
 }
 
@@ -134,7 +141,7 @@ h3{
 
 textarea,input,select {
   background-color: #FDFBFB;
-  border: 1px solid #008CCA;
+  border: 1px solid #FDFBFB;
   border-radius:5px;
   margin: 1px;
   text-align:center;
@@ -147,8 +154,8 @@ textarea,input,select {
 }
 
 .buttona {
-  background-color: #008CCA;
-  border: 1px solid #008CCA;
+  background-color: #d9534f;
+  border: 1px solid #d9534f;
   border-radius:5px;
   color: white;
   text-align: center;
@@ -211,8 +218,13 @@ div.tab button:hover {
 }
 
 div.tab button.active {
-  background-color: #008CCA;
+  background-color: #d9534f;
   color: #FFFFFF
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse !important;
 }
 
 .tabcontent {
@@ -239,15 +251,17 @@ table.tstatus td {
 table.tpaketwifi {
   border-collapse: collapse;
   background-color: #ffffff;
+  
 }
 
 table.tpaketwifi td {
+  text-align: center;
   border: 1px solid #ccc;
-  padding: 5px;
+  padding: 0.5em 1em 0.5em;
 }
 
 table.tpaketwifi tr:first-child{
-  background:#008CCA;
+  background:#d9534f;
   font-weight: bold;
   color: #FFFFFF;
 }
